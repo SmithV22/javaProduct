@@ -1,0 +1,29 @@
+*{
+	margin: 0 auto;
+	border: 0;
+}
+
+.navbg {
+	background: #cadee3;
+}
+
+.dash__links {
+	text-decoration: none;
+	padding: 0.5rem;
+	color: grey;
+	
+}
+
+.dash__heading {
+	text-align: center;
+}
+
+.dash__line {
+	height: .4rem ;
+	background: black;
+}
+
+.dash__signedIn {
+	display: flex;
+	justify-content: space-evenly;
+}

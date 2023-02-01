@@ -1,0 +1,7 @@
+table {
+	border: 2px solid black ;
+}
+
+container thead {
+	border-bottom: 1ps solid black ;
+}

@@ -1,0 +1,13 @@
+.project__comment {
+	padding-top: 4px;
+	margin-top: 1rem;
+	text-align: center;
+	background: #cadee3 ;
+}
+
+.project__text {
+	background: #a1d7e3 ;
+	border: 2px solid #a1d7e3;
+	text-align: center ;
+	font-size: 20px ;
+}
