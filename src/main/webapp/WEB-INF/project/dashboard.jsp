@@ -37,14 +37,14 @@
 				<tbody>
 				<c:forEach items="${ allProjects }" var="project">
 					<tr>
-						<td><a class="text-decoration-none" href="/project/details/${ project.id }">${ project.id }</a> </td>
+						<td><a class="dash__links" href="/project/details/${ project.id }">${ project.id }</a> </td>
 						<td>${ project.type } </td>
 						<td>$ ${ project.price }</td>
 						<td>${ project.completed }</td>
 						<td>${ project.sentToBilling }</td>
 						<td>${ project.paid }</td>
 						<td>${ project.assignedTo }</td>
-						<td><a href="/project/edit/${ project.id }">Edit |</a><a href="/project/delete/${ project.id }">Delete</a></td>
+						<td><a href="/project/edit/${ project.id }" class="dash__links">Edit</a><a href="/project/delete/${ project.id }" class="dash__links"> Delete</a></td>
 					</tr>
 				</c:forEach>
 				</tbody>

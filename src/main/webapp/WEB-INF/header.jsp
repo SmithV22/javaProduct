@@ -13,6 +13,7 @@
 		<h1 class="dash__heading pt-4">Project Manager</h1>
 		<div class="dash__signedIn">
 			<h5> ${ user.firstName } ${ user.lastName } is signed in</h5>
+			<a href="/https://neiasoftwaredesign.com" class="dash__links">Return To Portfolio</a>
 			<a href="/logout" class="dash__links">Logout</a>
 		</div>
 		<div class="dash__line"></div>
